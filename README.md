@@ -22,6 +22,10 @@ nodemon app.js
 
 * 在terminal可以看到 Express is listening on localhost : 3000，開啟瀏覽器在網址列輸入localhost:3000
 
+# 新增功能
+* 餐廳清單新增、修改、刪除等按鈕
+
+
 # 開發環境
 * Node.js: v10.15.0
 * Express: v4.17.1
