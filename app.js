@@ -28,7 +28,7 @@ app.use(routes)
 //   res.render('index', { restaurants: restaurants });
 // })
 
-
+//"echo \"Error: no test specified\" && exit 1"
 
 app.listen(port, () => {
   console.log(`Express is listening on localhost:${port}`)
