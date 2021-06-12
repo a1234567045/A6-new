@@ -37,10 +37,10 @@
 
       <img class="rounded mx-auto d-block mb-4 w-100" src="{{restaurant.image}}" alt="{{restaurant.name}}"
         style="max-width: 600px;">
-      <a href="/restaurants/{{ restaurant._id }}/edit">修改</a>
-      <a href="/">back</a>
+      <a href="/restaurants/{{ restaurant._id }}/edit" class="btn btn-info">修改</a>
+      <a href="/" class="btn btn-warning ml-3">返回</a>
       <form action="/restaurants/{{ restaurant._id }}?_method=DELETE" method="POST" style="display: inline;">
-        <button type="submit">delete</button>
+        <button type="submit" class="btn btn-danger">刪除</button>
       </form>
     </div>
   </div>

@@ -17,9 +17,16 @@ router.post('/', (req, res) => {
 
 // router.get('/search', (req, res) => {
 //   const keyword = req.query.keyword
+//   return Restaurant.findById(id)
+//     .lean()
+//     .then(restaurantList => restaurantList.filter(restaurant => {
+//       const name = restaurant.name.toLowerCase().includes(keyword.toLowerCase())
+//       const category = restaurant.category.includes(keyword)
+//       return (name || category)  
+//     }))
 //   const restaurants = restaurantList.results.filter(restaurant => {
 //     // return restaurant.title?.includes(keyword)
-//     return restaurant.name && restaurant.name.toLowerCase().includes(keyword.toLowerCase())
+//     return restaurant.name && 
 //   })
 //   res.render('index', { restaurants: restaurants });
 // })
