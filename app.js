@@ -18,18 +18,6 @@ app.use(methodOverride('_method'))
 app.use(routes)
 
 
-// app.get('/search', (req, res) => {
-//   const keyword = req.query.keyword
-//   const restaurants = restaurantList.results.filter(restaurant => {
-//     // return restaurant.title?.includes(keyword)
-//     return restaurant.name && restaurant.name.toLowerCase().includes(keyword.toLowerCase())
-//   })
-
-//   res.render('index', { restaurants: restaurants });
-// })
-
-//"echo \"Error: no test specified\" && exit 1"
-
 app.listen(port, () => {
   console.log(`Express is listening on localhost:${port}`)
 })
